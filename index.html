@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 
-<html class="light scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CareerShastra - Transform Your Future</title>
-  <link rel="icon" type="image/jpg" href="favicon.jpg">
-  <link rel="apple-touch-icon" href="favicon.jpg">
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
+<html class="light scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CareerShastra - Transform Your Future</title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link rel="apple-touch-icon" href="favicon.jpg">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
         tailwind.config = {
-          darkMode: "class",
-          theme: {
-            extend: {
-              "colors": {
-                      "primary-container": "#818cf8",
-                      "on-tertiary-container": "#3b1f63",
-                      "tertiary-container": "#a78bfa",
-                      "surface-container-low": "#e5e7ed",
-                      "surface": "#e8eaf0",
-                      "primary-fixed": "#e0e2ff",
-                      "on-surface-variant": "#585a68",
-                      "surface-container": "#e2e4ea",
-                      "on-tertiary": "#ffffff",
-                      "inverse-on-surface": "#e8eaf0",
-                      "on-tertiary-fixed-variant": "#5b21b6",
-                      "surface-bright": "#edeef4",
-                      "secondary-container": "#d8dae6",
-                      "outline": "#8a8c9a",
-                      "inverse-primary": "#a5b4fc",
-                      "surface-tint": "#6366f1",
-                      "surface-container-lowest": "#f0f2f8",
-                      "primary": "#1e3a8a", /* Deep Blue Accent */
-                      "on-secondary": "#ffffff",
-                      "secondary-fixed": "#d8dae6",
-                      "outline-variant": "#d0d2dc",
-                      "on-primary-fixed": "#1e1b4b",
-                      "surface-container-high": "#dcdee4",
-                      "on-error": "#ffffff",
-                      "inverse-surface": "#2e3040",
-                      "on-secondary-fixed": "#1a1b26",
-                      "on-tertiary-fixed": "#2e1065",
-                      "on-primary-container": "#e0e2ff",
-                      "error-container": "#fee2e2",
-                      "on-primary-fixed-variant": "#4338ca",
-                      "tertiary": "#ea580c", /* Bright Orange Accent */
-                      "tertiary-fixed-dim": "#c4b5fd",
-                      "on-error-container": "#991b1b",
-                      "on-primary": "#ffffff",
-                      "secondary": "#6c6e7e",
-                      "background": "#e8eaf0",
-                      "surface-dim": "#d4d6dc",
-                      "surface-container-highest": "#d6d8de",
-                      "on-background": "#1e293b",
-                      "on-secondary-fixed-variant": "#404252",
-                      "on-surface": "#1e293b",
-                      "primary-fixed-dim": "#a5b4fc",
-                      "error": "#dc2626",
-                      "secondary-fixed-dim": "#b8baca",
-                      "surface-variant": "#dcdee4",
-                      "on-secondary-container": "#585a68",
-                      "tertiary-fixed": "#ede9fe"
-              },
-              "borderRadius": {
-                      "DEFAULT": "0.5rem",
-                      "lg": "1rem",
-                      "xl": "1.5rem",
-                      "2xl": "2rem",
-                      "3xl": "2.5rem",
-                      "full": "9999px"
-              },
-              "fontFamily": {
-                      "headline": ["Plus Jakarta Sans", "sans-serif"],
-                      "display": ["Plus Jakarta Sans", "sans-serif"],
-                      "body": ["Plus Jakarta Sans", "sans-serif"],
-                      "label": ["Plus Jakarta Sans", "sans-serif"]
-              }
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#818cf8",
+                        "on-tertiary-container": "#3b1f63",
+                        "tertiary-container": "#a78bfa",
+                        "surface-container-low": "#e5e7ed",
+                        "surface": "#e8eaf0",
+                        "primary-fixed": "#e0e2ff",
+                        "on-surface-variant": "#585a68",
+                        "surface-container": "#e2e4ea",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#e8eaf0",
+                        "on-tertiary-fixed-variant": "#5b21b6",
+                        "surface-bright": "#edeef4",
+                        "secondary-container": "#d8dae6",
+                        "outline": "#8a8c9a",
+                        "inverse-primary": "#a5b4fc",
+                        "surface-tint": "#6366f1",
+                        "surface-container-lowest": "#f0f2f8",
+                        "primary": "#1e3a8a", /* Deep Blue Accent */
+                        "on-secondary": "#ffffff",
+                        "secondary-fixed": "#d8dae6",
+                        "outline-variant": "#d0d2dc",
+                        "on-primary-fixed": "#1e1b4b",
+                        "surface-container-high": "#dcdee4",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#2e3040",
+                        "on-secondary-fixed": "#1a1b26",
+                        "on-tertiary-fixed": "#2e1065",
+                        "on-primary-container": "#e0e2ff",
+                        "error-container": "#fee2e2",
+                        "on-primary-fixed-variant": "#4338ca",
+                        "tertiary": "#ea580c", /* Bright Orange Accent */
+                        "tertiary-fixed-dim": "#c4b5fd",
+                        "on-error-container": "#991b1b",
+                        "on-primary": "#ffffff",
+                        "secondary": "#6c6e7e",
+                        "background": "#e8eaf0",
+                        "surface-dim": "#d4d6dc",
+                        "surface-container-highest": "#d6d8de",
+                        "on-background": "#1e293b",
+                        "on-secondary-fixed-variant": "#404252",
+                        "on-surface": "#1e293b",
+                        "primary-fixed-dim": "#a5b4fc",
+                        "error": "#dc2626",
+                        "secondary-fixed-dim": "#b8baca",
+                        "surface-variant": "#dcdee4",
+                        "on-secondary-container": "#585a68",
+                        "tertiary-fixed": "#ede9fe"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                        "3xl": "2.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans", "sans-serif"],
+                        "display": ["Plus Jakarta Sans", "sans-serif"],
+                        "body": ["Plus Jakarta Sans", "sans-serif"],
+                        "label": ["Plus Jakarta Sans", "sans-serif"]
+                    }
+                },
             },
-          },
         }
     </script>
-<style>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="email.js"></script>
+    <style>
         body {
             background-color: theme('colors.background');
             color: theme('colors.on-background');
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
-        
+
         /* Refined Neomorphic Utilities for Better Contrast */
         .neo-raised {
             box-shadow: 8px 8px 16px rgba(166, 180, 200, 0.4), -8px -8px 16px rgba(255, 255, 255, 0.9);
             background-color: theme('colors.surface');
             border: 1px solid rgba(255, 255, 255, 0.4);
         }
+
         .neo-pressed {
             box-shadow: inset 6px 6px 12px rgba(166, 180, 200, 0.4), inset -6px -6px 12px rgba(255, 255, 255, 0.9);
             background-color: theme('colors.surface');
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
+
         .neo-button-primary {
             box-shadow: 8px 8px 16px rgba(166, 180, 200, 0.4), -8px -8px 16px rgba(255, 255, 255, 0.9);
             background-color: theme('colors.surface');
@@ -108,21 +117,25 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             border: 1px solid rgba(255, 255, 255, 0.4);
         }
+
         .neo-button-primary:hover {
             transform: translateY(-2px);
             box-shadow: 10px 10px 20px rgba(166, 180, 200, 0.45), -10px -10px 20px rgba(255, 255, 255, 1);
             color: theme('colors.tertiary');
         }
+
         .neo-button-primary:active {
             transform: translateY(1px);
             box-shadow: inset 4px 4px 8px rgba(166, 180, 200, 0.4), inset -4px -4px 8px rgba(255, 255, 255, 0.9);
         }
+
         .neo-input {
             box-shadow: inset 6px 6px 12px rgba(166, 180, 200, 0.4), inset -6px -6px 12px rgba(255, 255, 255, 0.9);
             background-color: theme('colors.surface');
             border: 1px solid transparent;
             transition: all 0.3s ease;
         }
+
         .neo-input:focus {
             outline: none;
             border-color: theme('colors.primary-fixed-dim');
@@ -130,24 +143,45 @@
         }
 
         /* Animations */
-        .opacity-0-init { opacity: 0; transform: translateY(20px); }
+        .opacity-0-init {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
         .animate-fade-in-up {
             animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
+
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        .delay-100 { animation-delay: 100ms; }
-        .delay-200 { animation-delay: 200ms; }
-        .delay-300 { animation-delay: 300ms; }
+
+        .delay-100 {
+            animation-delay: 100ms;
+        }
+
+        .delay-200 {
+            animation-delay: 200ms;
+        }
+
+        .delay-300 {
+            animation-delay: 300ms;
+        }
     </style>
-<script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             // Mobile Menu Toggle
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
-            
+
             menuBtn.addEventListener('click', () => {
                 mobileMenu.classList.toggle('hidden');
             });
@@ -176,338 +210,440 @@
         });
     </script>
 </head>
+
 <body class="antialiased selection:bg-primary selection:text-white overflow-x-hidden bg-[#e8eaf0]">
-<!-- TopNavBar -->
-<nav class="bg-[#e8eaf0]/90 backdrop-blur-md sticky top-0 w-full z-50 shadow-[0_4px_30px_rgba(0,0,0,0.05)] border-b border-white/40">
-<div class="flex justify-between items-center px-6 md:px-12 py-4 max-w-7xl mx-auto">
-<div class="text-2xl font-bold text-primary tracking-tight">
+    <!-- TopNavBar -->
+    <nav
+        class="bg-[#e8eaf0]/90 backdrop-blur-md sticky top-0 w-full z-50 shadow-[0_4px_30px_rgba(0,0,0,0.05)] border-b border-white/40">
+        <div class="flex justify-between items-center px-6 md:px-12 py-4 max-w-7xl mx-auto">
+            <div class="text-2xl font-bold text-primary tracking-tight">
                 CareerShastra
             </div>
-<!-- Desktop Menu -->
-<div class="hidden md:flex space-x-8 items-center font-medium">
-<a class="text-primary border-b-2 border-primary pb-1 font-semibold" href="#">Home</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#courses">Courses</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#why-us">Why Us</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#process">Process</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#contact">Contact</a>
-</div>
-<div class="hidden md:block">
-<a class="neo-button-primary px-8 py-3 rounded-full font-semibold flex items-center gap-2 text-sm tracking-wide" href="#contact">
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center font-medium">
+                <a class="text-primary border-b-2 border-primary pb-1 font-semibold" href="#">Home</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors duration-200"
+                    href="#courses">Courses</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="#why-us">Why
+                    Us</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors duration-200"
+                    href="#process">Process</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors duration-200"
+                    href="#contact">Contact</a>
+            </div>
+            <div class="hidden md:block">
+                <a class="neo-button-primary px-8 py-3 rounded-full font-semibold flex items-center gap-2 text-sm tracking-wide"
+                    href="#contact">
                     Enquire Now
                     <span class="material-symbols-outlined text-sm font-bold">arrow_forward</span>
-</a>
-</div>
-<!-- Mobile Menu Button -->
-<button class="md:hidden text-primary p-2 neo-raised rounded-xl flex items-center justify-center" id="mobile-menu-btn">
-<span class="material-symbols-outlined">menu</span>
-</button>
-</div>
-<!-- Mobile Menu Panel -->
-<div class="hidden md:hidden bg-[#e8eaf0] border-t border-white/40 px-6 py-6 space-y-4 shadow-xl" id="mobile-menu">
-<a class="block text-primary font-semibold py-2" href="#">Home</a>
-<a class="block text-on-surface-variant hover:text-primary py-2" href="#courses">Courses</a>
-<a class="block text-on-surface-variant hover:text-primary py-2" href="#why-us">Why Us</a>
-<a class="block text-on-surface-variant hover:text-primary py-2" href="#process">Process</a>
-<a class="block text-on-surface-variant hover:text-primary py-2" href="#contact">Contact</a>
-<a class="neo-button-primary px-6 py-3 rounded-full font-semibold flex items-center justify-center gap-2 text-sm mt-4 w-full" href="#contact">
+                </a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-primary p-2 neo-raised rounded-xl flex items-center justify-center"
+                id="mobile-menu-btn">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu Panel -->
+        <div class="hidden md:hidden bg-[#e8eaf0] border-t border-white/40 px-6 py-6 space-y-4 shadow-xl"
+            id="mobile-menu">
+            <a class="block text-primary font-semibold py-2" href="#">Home</a>
+            <a class="block text-on-surface-variant hover:text-primary py-2" href="#courses">Courses</a>
+            <a class="block text-on-surface-variant hover:text-primary py-2" href="#why-us">Why Us</a>
+            <a class="block text-on-surface-variant hover:text-primary py-2" href="#process">Process</a>
+            <a class="block text-on-surface-variant hover:text-primary py-2" href="#contact">Contact</a>
+            <a class="neo-button-primary px-6 py-3 rounded-full font-semibold flex items-center justify-center gap-2 text-sm mt-4 w-full"
+                href="#contact">
                 Enquire Now
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</a>
-</div>
-</nav>
-<main>
-<!-- Hero Section -->
-<section class="pt-24 pb-20 px-6 md:px-12 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 overflow-hidden">
-<div class="w-full lg:w-1/2 flex flex-col gap-8 animate-on-scroll">
-<div class="inline-flex items-center gap-3 neo-pressed px-5 py-2.5 rounded-full w-fit">
-<span class="w-2.5 h-2.5 rounded-full bg-tertiary animate-pulse shadow-[0_0_8px_rgba(234,88,12,0.6)]"></span>
-<span class="text-sm font-semibold tracking-wide text-primary">Industry-Ready Training</span>
-</div>
-<h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold font-headline text-on-surface leading-[1.1] tracking-tight">
-                    Transform Your Future with <span class="text-primary bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500">Industry-Ready Skills</span>
-</h1>
-<p class="text-lg md:text-xl text-on-surface-variant font-body leading-relaxed max-w-2xl">
-                    Master Oracle APEX, SAP, and AWS through practical training and continuous mentorship from learning to opportunity.
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section
+            class="pt-24 pb-20 px-6 md:px-12 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 overflow-hidden">
+            <div class="w-full lg:w-1/2 flex flex-col gap-8 animate-on-scroll">
+                <div class="inline-flex items-center gap-3 neo-pressed px-5 py-2.5 rounded-full w-fit">
+                    <span
+                        class="w-2.5 h-2.5 rounded-full bg-tertiary animate-pulse shadow-[0_0_8px_rgba(234,88,12,0.6)]"></span>
+                    <span class="text-sm font-semibold tracking-wide text-primary">Industry-Ready Training</span>
+                </div>
+                <h1
+                    class="text-4xl md:text-6xl lg:text-7xl font-extrabold font-headline text-on-surface leading-[1.1] tracking-tight">
+                    Transform Your Future with <span
+                        class="text-primary bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500">Industry-Ready
+                        Skills</span>
+                </h1>
+                <p class="text-lg md:text-xl text-on-surface-variant font-body leading-relaxed max-w-2xl">
+                    Master Oracle APEX, SAP, and AWS through practical training and continuous mentorship from learning
+                    to opportunity.
                 </p>
-<div class="flex flex-col sm:flex-row gap-5 mt-4">
-<a class="neo-button-primary px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 text-primary w-full sm:w-auto" href="#contact">
+                <div class="flex flex-col sm:flex-row gap-5 mt-4">
+                    <a class="neo-button-primary px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 text-primary w-full sm:w-auto"
+                        href="#contact">
                         Book Free Counselling
                         <span class="material-symbols-outlined font-bold">calendar_today</span>
-</a>
-<a class="px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 text-on-surface hover:text-primary transition-colors neo-raised active:neo-pressed w-full sm:w-auto" href="#courses">
+                    </a>
+                    <a class="px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 text-on-surface hover:text-primary transition-colors neo-raised active:neo-pressed w-full sm:w-auto"
+                        href="#courses">
                         Explore Courses
                     </a>
-</div>
-<div class="flex flex-wrap items-center gap-x-8 gap-y-4 mt-8 pt-8 border-t border-outline-variant/30">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-tertiary font-bold">check_circle</span>
-<span class="text-sm font-bold text-on-surface-variant">Practical Training</span>
-</div>
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-tertiary font-bold">psychology</span>
-<span class="text-sm font-bold text-on-surface-variant">Interview Prep</span>
-</div>
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-tertiary font-bold">work</span>
-<span class="text-sm font-bold text-on-surface-variant">Placement Guidance</span>
-</div>
-</div>
-</div>
-<div class="w-full lg:w-1/2 mt-12 lg:mt-0 animate-on-scroll delay-200">
-<div class="neo-raised p-5 md:p-8 rounded-[2.5rem] aspect-square relative mx-auto max-w-lg lg:max-w-none">
-<img alt="Students collaborating" class="w-full h-full object-cover rounded-3xl opacity-95" data-alt="A bright, modern photograph of diverse students collaborating enthusiastically around a laptop in a well-lit, contemporary educational space. The lighting is soft and natural, emphasizing a high-key, optimistic, light-mode aesthetic. The setting feels professional yet welcoming, with subtle cool gray and deep indigo tones reflecting a modern neomorphic UI environment. The mood is focused, ambitious, and collaborative." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCve24PKYpUGkClpHT7xX8Mn0GlbFwz69tl9EIluTckIp7NWDDk3zDgVpoZ1KoCFvTrABB_u6CjFbDJqDFUXhrtqEjLa8TAeBfdN0pS6YB8nuZ7qanDo1ny-M_saJEoMyD9AE2nfwmIToG2glB7O7pS-gsfcDjkILP-K9CGMprJ7gPUmqyhVkyQ0BAEgSJ7BXvb-rSXfVn2v_ONV37bXJJ-ISsvsXyHSmLfNVcexc5fwlPKnNCAmflDrsiV11h0p_1cbQxOWSy-pU0Z"/>
-<!-- Floating Neomorphic Badges -->
-<div class="absolute -top-6 -left-4 md:top-12 md:-left-8 neo-raised px-5 py-3 md:px-6 md:py-4 rounded-2xl flex items-center gap-3 md:gap-4 bg-[#e8eaf0]/90 backdrop-blur-sm z-10">
-<div class="w-10 h-10 md:w-12 md:h-12 rounded-xl neo-pressed flex items-center justify-center text-primary">
-<span class="material-symbols-outlined font-bold" style='font-variation-settings: "FILL" 1;'>star</span>
-</div>
-<div>
-<p class="text-sm md:text-base font-extrabold text-on-surface">Top Mentors</p>
-<p class="text-xs md:text-sm font-medium text-on-surface-variant">Industry Experts</p>
-</div>
-</div>
-<div class="absolute -bottom-6 -right-4 md:bottom-12 md:-right-8 neo-raised px-5 py-3 md:px-6 md:py-4 rounded-2xl flex items-center gap-3 md:gap-4 bg-[#e8eaf0]/90 backdrop-blur-sm z-10">
-<div class="w-10 h-10 md:w-12 md:h-12 rounded-xl neo-pressed flex items-center justify-center text-tertiary">
-<span class="material-symbols-outlined font-bold" style='font-variation-settings: "FILL" 1;'>trending_up</span>
-</div>
-<div>
-<p class="text-sm md:text-base font-extrabold text-on-surface">100% Focus</p>
-<p class="text-xs md:text-sm font-medium text-on-surface-variant">On Placement</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Courses Section -->
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="courses">
-<div class="text-center max-w-2xl mx-auto mb-16 animate-on-scroll">
-<h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Expert-Led Career Tracks</h2>
-<p class="text-lg text-on-surface-variant font-body leading-relaxed">Specialized programs designed to meet current industry demands and accelerate your career growth.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- Oracle APEX -->
-<div class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll">
-<div class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
-<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>code_blocks</span>
-</div>
-<h3 class="text-2xl font-extrabold text-on-surface mb-4">Oracle APEX</h3>
-<p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Master low-code development. Build enterprise apps faster with Oracle's premier low-code platform.</p>
-<a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg" href="#">
+                </div>
+                <div class="flex flex-wrap items-center gap-x-8 gap-y-4 mt-8 pt-8 border-t border-outline-variant/30">
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-tertiary font-bold">check_circle</span>
+                        <span class="text-sm font-bold text-on-surface-variant">Practical Training</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-tertiary font-bold">psychology</span>
+                        <span class="text-sm font-bold text-on-surface-variant">Interview Prep</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-tertiary font-bold">work</span>
+                        <span class="text-sm font-bold text-on-surface-variant">Placement Guidance</span>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 mt-12 lg:mt-0 animate-on-scroll delay-200">
+                <div
+                    class="neo-raised p-5 md:p-8 rounded-[2.5rem] aspect-square relative mx-auto max-w-lg lg:max-w-none">
+                    <img alt="Students collaborating" class="w-full h-full object-cover rounded-3xl opacity-95"
+                        data-alt="A bright, modern photograph of diverse students collaborating enthusiastically around a laptop in a well-lit, contemporary educational space. The lighting is soft and natural, emphasizing a high-key, optimistic, light-mode aesthetic. The setting feels professional yet welcoming, with subtle cool gray and deep indigo tones reflecting a modern neomorphic UI environment. The mood is focused, ambitious, and collaborative."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCve24PKYpUGkClpHT7xX8Mn0GlbFwz69tl9EIluTckIp7NWDDk3zDgVpoZ1KoCFvTrABB_u6CjFbDJqDFUXhrtqEjLa8TAeBfdN0pS6YB8nuZ7qanDo1ny-M_saJEoMyD9AE2nfwmIToG2glB7O7pS-gsfcDjkILP-K9CGMprJ7gPUmqyhVkyQ0BAEgSJ7BXvb-rSXfVn2v_ONV37bXJJ-ISsvsXyHSmLfNVcexc5fwlPKnNCAmflDrsiV11h0p_1cbQxOWSy-pU0Z" />
+                    <!-- Floating Neomorphic Badges -->
+                    <div
+                        class="absolute -top-6 -left-4 md:top-12 md:-left-8 neo-raised px-5 py-3 md:px-6 md:py-4 rounded-2xl flex items-center gap-3 md:gap-4 bg-[#e8eaf0]/90 backdrop-blur-sm z-10">
+                        <div
+                            class="w-10 h-10 md:w-12 md:h-12 rounded-xl neo-pressed flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined font-bold"
+                                style='font-variation-settings: "FILL" 1;'>star</span>
+                        </div>
+                        <div>
+                            <p class="text-sm md:text-base font-extrabold text-on-surface">Top Mentors</p>
+                            <p class="text-xs md:text-sm font-medium text-on-surface-variant">Industry Experts</p>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute -bottom-6 -right-4 md:bottom-12 md:-right-8 neo-raised px-5 py-3 md:px-6 md:py-4 rounded-2xl flex items-center gap-3 md:gap-4 bg-[#e8eaf0]/90 backdrop-blur-sm z-10">
+                        <div
+                            class="w-10 h-10 md:w-12 md:h-12 rounded-xl neo-pressed flex items-center justify-center text-tertiary">
+                            <span class="material-symbols-outlined font-bold"
+                                style='font-variation-settings: "FILL" 1;'>trending_up</span>
+                        </div>
+                        <div>
+                            <p class="text-sm md:text-base font-extrabold text-on-surface">100% Focus</p>
+                            <p class="text-xs md:text-sm font-medium text-on-surface-variant">On Placement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Courses Section -->
+        <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="courses">
+            <div class="text-center max-w-2xl mx-auto mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">
+                    Expert-Led Career Tracks</h2>
+                <p class="text-lg text-on-surface-variant font-body leading-relaxed">Specialized programs designed to
+                    meet current industry demands and accelerate your career growth.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Oracle APEX -->
+                <div
+                    class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll">
+                    <div
+                        class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
+                        <span class="material-symbols-outlined text-4xl"
+                            style='font-variation-settings: "FILL" 1;'>code_blocks</span>
+                    </div>
+                    <h3 class="text-2xl font-extrabold text-on-surface mb-4">Oracle APEX</h3>
+                    <p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Master low-code
+                        development. Build enterprise apps faster with Oracle's premier low-code platform.</p>
+                    <a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg"
+                        href="#">
                         Learn More <span class="material-symbols-outlined font-bold text-base">arrow_forward</span>
-</a>
-</div>
-<!-- SAP -->
-<div class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll delay-100">
-<div class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
-<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>enterprise</span>
-</div>
-<h3 class="text-2xl font-extrabold text-on-surface mb-4">SAP</h3>
-<p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Comprehensive enterprise solutions training. Learn to manage business operations and customer relations.</p>
-<a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg" href="#">
+                    </a>
+                </div>
+                <!-- SAP -->
+                <div
+                    class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll delay-100">
+                    <div
+                        class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
+                        <span class="material-symbols-outlined text-4xl"
+                            style='font-variation-settings: "FILL" 1;'>enterprise</span>
+                    </div>
+                    <h3 class="text-2xl font-extrabold text-on-surface mb-4">SAP</h3>
+                    <p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Comprehensive
+                        enterprise solutions training. Learn to manage business operations and customer relations.</p>
+                    <a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg"
+                        href="#">
                         Learn More <span class="material-symbols-outlined font-bold text-base">arrow_forward</span>
-</a>
-</div>
-<!-- AWS -->
-<div class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll delay-200">
-<div class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
-<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>cloud</span>
-</div>
-<h3 class="text-2xl font-extrabold text-on-surface mb-4">AWS</h3>
-<p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Cloud infrastructure excellence. Design, deploy, and manage robust applications on Amazon Web Services.</p>
-<a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg" href="#">
+                    </a>
+                </div>
+                <!-- AWS -->
+                <div
+                    class="neo-raised p-8 md:p-10 rounded-[2.5rem] flex flex-col h-full group hover:-translate-y-3 transition-all duration-300 animate-on-scroll delay-200">
+                    <div
+                        class="w-20 h-20 rounded-[1.5rem] neo-pressed flex items-center justify-center mb-8 text-primary group-hover:text-tertiary transition-colors duration-300">
+                        <span class="material-symbols-outlined text-4xl"
+                            style='font-variation-settings: "FILL" 1;'>cloud</span>
+                    </div>
+                    <h3 class="text-2xl font-extrabold text-on-surface mb-4">AWS</h3>
+                    <p class="text-on-surface-variant mb-8 flex-grow leading-relaxed font-medium">Cloud infrastructure
+                        excellence. Design, deploy, and manage robust applications on Amazon Web Services.</p>
+                    <a class="inline-flex items-center gap-2 text-primary font-bold hover:text-tertiary transition-colors w-fit text-lg"
+                        href="#">
                         Learn More <span class="material-symbols-outlined font-bold text-base">arrow_forward</span>
-</a>
-</div>
-</div>
-</section>
-<!-- Why Us Section (Bento Grid) -->
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="why-us">
-<div class="text-center max-w-2xl mx-auto mb-16 animate-on-scroll">
-<h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Why Choose CareerShastra?</h2>
-<p class="text-lg text-on-surface-variant font-body leading-relaxed">We provide a holistic approach to your career development, focusing on practical skills and guaranteed support.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 h-auto md:h-[600px] animate-on-scroll">
-<!-- Practical Learning (Large block) -->
-<div class="neo-raised rounded-[2.5rem] p-8 md:p-10 col-span-1 md:col-span-2 md:row-span-2 flex flex-col justify-end relative overflow-hidden group">
-<div class="absolute inset-0 bg-gradient-to-t from-[#1e293b]/80 to-transparent z-10 rounded-[2.5rem]"></div>
-<img alt="Practical learning" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" data-alt="A close-up shot of a modern, sleek workspace showing hands typing on a laptop with lines of code visible. The lighting is bright and soft, typical of a high-end neomorphic design environment. The color palette emphasizes cool grays, pristine whites, and subtle indigo accents. The atmosphere conveys intense focus, practical application, and modern technological education." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFJJ6pFJLewX54ExNtrrLPpVrmrb7Vs-bDXXZpCu7eeVniY90ob-pnTHXRAAV-8xkfxXarG5UyZLgnhlJZyHzedvofNthNYMZ4drKVIJFXBQlYtqZlC-hMhXJBTG2fbjWO8ENIDtNEVMmRfzeQAdp9ABJkirG6EExF2_J91cnwT9YeusFjdPc2MTEaJmUD3StSKydlrgQryH0lsWHnOAXx9kE4hX0HlixV3iHgvn9mftHLGJ5P2pDgpozl5M84y0JvwbZXxicMkPOW"/>
-<div class="relative z-20 pt-48 md:pt-0">
-<div class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary bg-[#e8eaf0]/95 backdrop-blur-md">
-<span class="material-symbols-outlined text-3xl font-bold" style='font-variation-settings: "FILL" 1;'>laptop_mac</span>
-</div>
-<h3 class="text-3xl font-extrabold text-white mb-3 tracking-tight">Practical Learning</h3>
-<p class="text-white/90 font-medium leading-relaxed">Hands-on experience with real-world scenarios, moving beyond theoretical knowledge to practical execution.</p>
-</div>
-</div>
-<!-- Job Process Support -->
-<div class="neo-raised rounded-[2.5rem] p-8 col-span-1 md:col-span-2 flex flex-col sm:flex-row items-start sm:items-center gap-6">
-<div class="w-16 h-16 rounded-[1.25rem] flex-shrink-0 neo-pressed flex items-center justify-center text-tertiary">
-<span class="material-symbols-outlined text-3xl font-bold" style='font-variation-settings: "FILL" 1;'>support_agent</span>
-</div>
-<div>
-<h3 class="text-2xl font-extrabold text-on-surface mb-3 tracking-tight">Job Process Support</h3>
-<p class="text-on-surface-variant font-medium leading-relaxed">Dedicated assistance throughout your entire job hunt journey, from application to offer negotiation.</p>
-</div>
-</div>
-<!-- Real Project Guidance -->
-<div class="neo-raised rounded-[2.5rem] p-8 col-span-1 flex flex-col">
-<div class="w-14 h-14 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary">
-<span class="material-symbols-outlined text-2xl font-bold" style='font-variation-settings: "FILL" 1;'>account_tree</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Real Projects</h3>
-<p class="text-on-surface-variant font-medium flex-grow">Build a portfolio with industry-standard project guidance.</p>
-</div>
-<!-- Interview Prep -->
-<div class="neo-raised rounded-[2.5rem] p-8 col-span-1 flex flex-col">
-<div class="w-14 h-14 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary">
-<span class="material-symbols-outlined text-2xl font-bold" style='font-variation-settings: "FILL" 1;'>groups</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Interview Prep</h3>
-<p class="text-on-surface-variant font-medium flex-grow">Mock interviews, resume building, and soft skills training.</p>
-</div>
-</div>
-</section>
-<!-- Process Section -->
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="process">
-<div class="text-center max-w-2xl mx-auto mb-20 animate-on-scroll">
-<h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Your Path to Success</h2>
-<p class="text-lg text-on-surface-variant font-body leading-relaxed">A proven, four-step methodology designed to take you from a beginner to an industry-ready professional.</p>
-</div>
-<div class="relative animate-on-scroll delay-100">
-<!-- Connecting Line (Desktop) -->
-<div class="hidden md:block absolute top-1/2 left-[10%] w-[80%] h-1 neo-pressed -translate-y-[40px] z-0 rounded-full"></div>
-<div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
-<!-- Step 1 -->
-<div class="flex flex-col items-center text-center">
-<div class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
-<span class="text-3xl font-extrabold">1</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Learn</h3>
-<p class="text-on-surface-variant font-medium leading-relaxed px-2">Master core concepts through expert-led, interactive sessions.</p>
-</div>
-<!-- Step 2 -->
-<div class="flex flex-col items-center text-center">
-<div class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
-<span class="text-3xl font-extrabold">2</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Practice</h3>
-<p class="text-on-surface-variant font-medium leading-relaxed px-2">Apply knowledge immediately through hands-on labs and exercises.</p>
-</div>
-<!-- Step 3 -->
-<div class="flex flex-col items-center text-center">
-<div class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
-<span class="text-3xl font-extrabold">3</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Build Projects</h3>
-<p class="text-on-surface-variant font-medium leading-relaxed px-2">Develop real-world applications to showcase your capabilities.</p>
-</div>
-<!-- Step 4 -->
-<div class="flex flex-col items-center text-center">
-<div class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-tertiary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
-<span class="material-symbols-outlined text-4xl" style='font-variation-settings: "FILL" 1;'>trophy</span>
-</div>
-<h3 class="text-xl font-extrabold text-on-surface mb-3">Get Job Ready</h3>
-<p class="text-on-surface-variant font-medium leading-relaxed px-2">Resume building, mock interviews, and final placement support.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="contact">
-<div class="neo-raised rounded-[3rem] p-8 md:p-16 flex flex-col lg:flex-row gap-16 animate-on-scroll">
-<!-- Contact Info -->
-<div class="w-full lg:w-5/12 flex flex-col justify-between">
-<div>
-<h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Start Your Journey Today</h2>
-<p class="text-lg text-on-surface-variant font-body mb-12 leading-relaxed">We guide students from learning to opportunity. Reach out to schedule your free counselling session.</p>
-<div class="space-y-8">
-<div class="flex items-center gap-6">
-<div class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
-<span class="material-symbols-outlined text-2xl font-bold" style='font-variation-settings: "FILL" 1;'>location_on</span>
-</div>
-<div>
-<p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">Location</p>
-<p class="text-on-surface font-extrabold text-lg">Hinjewadi, Pune</p>
-</div>
-</div>
-<div class="flex items-center gap-6">
-<div class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
-<span class="material-symbols-outlined text-2xl font-bold" style='font-variation-settings: "FILL" 1;'>call</span>
-</div>
-<div>
-<p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">Phone</p>
-<p class="text-on-surface font-extrabold text-lg">+91 9004403080</p>
-</div>
-</div>
-<div class="flex items-center gap-6">
-<div class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
-<span class="material-symbols-outlined text-2xl font-bold" style='font-variation-settings: "FILL" 1;'>mail</span>
-</div>
-<div>
-<p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">Email</p>
-<p class="text-on-surface font-extrabold text-lg">careershastras@gmail.com</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Contact Form -->
-<div class="w-full lg:w-7/12 mt-12 lg:mt-0">
-<form class="space-y-8">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="space-y-3">
-<label class="text-sm font-extrabold text-on-surface pl-4 tracking-wide">Full Name</label>
-<input class="w-full neo-input rounded-full px-6 py-4 text-on-surface font-medium placeholder:text-on-surface-variant/50 focus:ring-0" placeholder="John Doe" type="text"/>
-</div>
-<div class="space-y-3">
-<label class="text-sm font-extrabold text-on-surface pl-4 tracking-wide">Email Address</label>
-<input class="w-full neo-input rounded-full px-6 py-4 text-on-surface font-medium placeholder:text-on-surface-variant/50 focus:ring-0" placeholder="john@example.com" type="email"/>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="space-y-3">
-<label class="text-sm font-extrabold text-on-surface pl-4 tracking-wide">Phone Number</label>
-<input class="w-full neo-input rounded-full px-6 py-4 text-on-surface font-medium placeholder:text-on-surface-variant/50 focus:ring-0" placeholder="+91 xxxxx xxxxx" type="tel"/>
-</div>
-<div class="space-y-3 relative">
-<label class="text-sm font-extrabold text-on-surface pl-4 tracking-wide">Course Interest</label>
-<select class="w-full neo-input rounded-full px-6 py-4 text-on-surface font-medium placeholder:text-on-surface-variant/50 focus:ring-0 appearance-none bg-transparent relative z-10">
-<option disabled="" selected="" value="">Select a course</option>
-<option value="oracle">Oracle APEX</option>
-<option value="sap">SAP</option>
-<option value="aws">AWS</option>
-</select>
-<span class="material-symbols-outlined absolute right-6 top-[3.25rem] pointer-events-none text-on-surface-variant">expand_more</span>
-</div>
-</div>
-<div class="space-y-3">
-<label class="text-sm font-extrabold text-on-surface pl-4 tracking-wide">Your Message</label>
-<textarea class="w-full neo-input rounded-3xl px-6 py-5 text-on-surface font-medium placeholder:text-on-surface-variant/50 focus:ring-0 resize-none" placeholder="How can we help you?" rows="5"></textarea>
-</div>
-<button class="w-full sm:w-auto neo-button-primary px-12 py-5 rounded-full font-extrabold text-lg tracking-wide flex items-center justify-center gap-2 mx-auto sm:mx-0" type="button">
-                            Send Message
-                            <span class="material-symbols-outlined font-bold">send</span>
-</button>
-</form>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-[#e8eaf0] w-full mt-12 py-12 border-t border-white/50 font-['Plus_Jakarta_Sans'] text-sm">
-<div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-8">
-<div class="text-2xl font-bold text-primary tracking-tight">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Why Us Section (Bento Grid) -->
+        <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="why-us">
+            <div class="text-center max-w-2xl mx-auto mb-16 animate-on-scroll">
+                <h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Why
+                    Choose CareerShastra?</h2>
+                <p class="text-lg text-on-surface-variant font-body leading-relaxed">We provide a holistic approach to
+                    your career development, focusing on practical skills and guaranteed support.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-6 h-auto md:h-[600px] animate-on-scroll">
+                <!-- Practical Learning (Large block) -->
+                <div
+                    class="neo-raised rounded-[2.5rem] p-8 md:p-10 col-span-1 md:col-span-2 md:row-span-2 flex flex-col justify-end relative overflow-hidden group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-[#1e293b]/80 to-transparent z-10 rounded-[2.5rem]">
+                    </div>
+                    <img alt="Practical learning"
+                        class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
+                        data-alt="A close-up shot of a modern, sleek workspace showing hands typing on a laptop with lines of code visible. The lighting is bright and soft, typical of a high-end neomorphic design environment. The color palette emphasizes cool grays, pristine whites, and subtle indigo accents. The atmosphere conveys intense focus, practical application, and modern technological education."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFJJ6pFJLewX54ExNtrrLPpVrmrb7Vs-bDXXZpCu7eeVniY90ob-pnTHXRAAV-8xkfxXarG5UyZLgnhlJZyHzedvofNthNYMZ4drKVIJFXBQlYtqZlC-hMhXJBTG2fbjWO8ENIDtNEVMmRfzeQAdp9ABJkirG6EExF2_J91cnwT9YeusFjdPc2MTEaJmUD3StSKydlrgQryH0lsWHnOAXx9kE4hX0HlixV3iHgvn9mftHLGJ5P2pDgpozl5M84y0JvwbZXxicMkPOW" />
+                    <div class="relative z-20 pt-48 md:pt-0">
+                        <div
+                            class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary bg-[#e8eaf0]/95 backdrop-blur-md">
+                            <span class="material-symbols-outlined text-3xl font-bold"
+                                style='font-variation-settings: "FILL" 1;'>laptop_mac</span>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-white mb-3 tracking-tight">Practical Learning</h3>
+                        <p class="text-white/90 font-medium leading-relaxed">Hands-on experience with real-world
+                            scenarios, moving beyond theoretical knowledge to practical execution.</p>
+                    </div>
+                </div>
+                <!-- Job Process Support -->
+                <div
+                    class="neo-raised rounded-[2.5rem] p-8 col-span-1 md:col-span-2 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                    <div
+                        class="w-16 h-16 rounded-[1.25rem] flex-shrink-0 neo-pressed flex items-center justify-center text-tertiary">
+                        <span class="material-symbols-outlined text-3xl font-bold"
+                            style='font-variation-settings: "FILL" 1;'>support_agent</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-extrabold text-on-surface mb-3 tracking-tight">Job Process Support</h3>
+                        <p class="text-on-surface-variant font-medium leading-relaxed">Dedicated assistance throughout
+                            your entire job hunt journey, from application to offer negotiation.</p>
+                    </div>
+                </div>
+                <!-- Real Project Guidance -->
+                <div class="neo-raised rounded-[2.5rem] p-8 col-span-1 flex flex-col">
+                    <div
+                        class="w-14 h-14 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary">
+                        <span class="material-symbols-outlined text-2xl font-bold"
+                            style='font-variation-settings: "FILL" 1;'>account_tree</span>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-on-surface mb-3">Real Projects</h3>
+                    <p class="text-on-surface-variant font-medium flex-grow">Build a portfolio with industry-standard
+                        project guidance.</p>
+                </div>
+                <!-- Interview Prep -->
+                <div class="neo-raised rounded-[2.5rem] p-8 col-span-1 flex flex-col">
+                    <div
+                        class="w-14 h-14 rounded-[1.25rem] neo-pressed flex items-center justify-center mb-6 text-primary">
+                        <span class="material-symbols-outlined text-2xl font-bold"
+                            style='font-variation-settings: "FILL" 1;'>groups</span>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-on-surface mb-3">Interview Prep</h3>
+                    <p class="text-on-surface-variant font-medium flex-grow">Mock interviews, resume building, and soft
+                        skills training.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Process Section -->
+        <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="process">
+            <div class="text-center max-w-2xl mx-auto mb-20 animate-on-scroll">
+                <h2 class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">Your
+                    Path to Success</h2>
+                <p class="text-lg text-on-surface-variant font-body leading-relaxed">A proven, four-step methodology
+                    designed to take you from a beginner to an industry-ready professional.</p>
+            </div>
+            <div class="relative animate-on-scroll delay-100">
+                <!-- Connecting Line (Desktop) -->
+                <div
+                    class="hidden md:block absolute top-1/2 left-[10%] w-[80%] h-1 neo-pressed -translate-y-[40px] z-0 rounded-full">
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
+                    <!-- Step 1 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div
+                            class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-extrabold">1</span>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-on-surface mb-3">Learn</h3>
+                        <p class="text-on-surface-variant font-medium leading-relaxed px-2">Master core concepts through
+                            expert-led, interactive sessions.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div
+                            class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-extrabold">2</span>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-on-surface mb-3">Practice</h3>
+                        <p class="text-on-surface-variant font-medium leading-relaxed px-2">Apply knowledge immediately
+                            through hands-on labs and exercises.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div
+                            class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-primary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-extrabold">3</span>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-on-surface mb-3">Build Projects</h3>
+                        <p class="text-on-surface-variant font-medium leading-relaxed px-2">Develop real-world
+                            applications to showcase your capabilities.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div
+                            class="w-24 h-24 rounded-full neo-raised flex items-center justify-center mb-6 bg-surface text-tertiary border-4 border-[#e8eaf0] relative hover:scale-110 transition-transform duration-300">
+                            <span class="material-symbols-outlined text-4xl"
+                                style='font-variation-settings: "FILL" 1;'>trophy</span>
+                        </div>
+                        <h3 class="text-xl font-extrabold text-on-surface mb-3">Get Job Ready</h3>
+                        <p class="text-on-surface-variant font-medium leading-relaxed px-2">Resume building, mock
+                            interviews, and final placement support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto" id="contact">
+            <div class="neo-raised rounded-[3rem] p-8 md:p-16 flex flex-col lg:flex-row gap-16 animate-on-scroll">
+                <!-- Contact Info -->
+                <div class="w-full lg:w-5/12 flex flex-col justify-between">
+                    <div>
+                        <h2
+                            class="text-3xl md:text-5xl font-extrabold font-headline text-on-surface mb-6 tracking-tight">
+                            Start Your Journey Today</h2>
+                        <p class="text-lg text-on-surface-variant font-body mb-12 leading-relaxed">We guide students
+                            from learning to opportunity. Reach out to schedule your free counselling session.</p>
+                        <div class="space-y-8">
+                            <div class="flex items-center gap-6">
+                                <div
+                                    class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
+                                    <span class="material-symbols-outlined text-2xl font-bold"
+                                        style='font-variation-settings: "FILL" 1;'>location_on</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">
+                                        Location</p>
+                                    <p class="text-on-surface font-extrabold text-lg">Hinjewadi, Pune</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div
+                                    class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
+                                    <span class="material-symbols-outlined text-2xl font-bold"
+                                        style='font-variation-settings: "FILL" 1;'>call</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">
+                                        Phone</p>
+                                    <p class="text-on-surface font-extrabold text-lg">+91 9004403080</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div
+                                    class="w-16 h-16 rounded-[1.25rem] neo-pressed flex items-center justify-center text-primary flex-shrink-0">
+                                    <span class="material-symbols-outlined text-2xl font-bold"
+                                        style='font-variation-settings: "FILL" 1;'>mail</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-on-surface-variant font-bold tracking-wider uppercase mb-1">
+                                        Email</p>
+                                    <p class="text-on-surface font-extrabold text-lg">careershastras@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="w-full lg:w-7/12 mt-12 lg:mt-0">
+                    <form id="enquiryForm" class="space-y-8">
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                            <div class="space-y-3">
+                                <label class="text-sm font-bold">Name</label>
+                                <input type="text" name="name" required class="neo-input w-full p-4 rounded-xl">
+                            </div>
+
+                            <div class="space-y-3">
+                                <label class="text-sm font-bold">Email</label>
+                                <input type="email" name="email" required class="neo-input w-full p-4 rounded-xl">
+                            </div>
+
+                            <div class="space-y-3">
+                                <label class="text-sm font-bold">Phone</label>
+                                <input type="tel" name="phone" required class="neo-input w-full p-4 rounded-xl">
+                            </div>
+
+                            <div class="space-y-3">
+                                <label class="text-sm font-bold">Select Course</label>
+                                <select name="course" required class="neo-input w-full p-4 rounded-xl">
+                                    <option value="">Select Course</option>
+                                    <option value="Oracle APEX">Oracle APEX</option>
+                                    <option value="SAP">SAP</option>
+                                    <option value="AWS">AWS</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="space-y-3">
+                            <label class="text-sm font-bold">Message</label>
+                            <textarea name="message" rows="5" required
+                                class="neo-input w-full p-4 rounded-xl"></textarea>
+                        </div>
+
+                        <!-- Hidden fields -->
+                        <input type="hidden" name="source" value="CareerShastra Website">
+                        <input type="hidden" name="time">
+
+                        <button type="submit" class="neo-button-primary px-8 py-4 rounded-full font-bold w-full">
+                            Submit Enquiry
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-[#e8eaf0] w-full mt-12 py-12 border-t border-white/50 font-['Plus_Jakarta_Sans'] text-sm">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-2xl font-bold text-primary tracking-tight">
                 CareerShastra
             </div>
-<div class="flex flex-wrap justify-center gap-6 font-medium">
-<a class="text-on-surface-variant hover:text-primary transition-all" href="#">Privacy Policy</a>
-<a class="text-on-surface-variant hover:text-primary transition-all" href="#">Terms of Service</a>
-<a class="text-on-surface-variant hover:text-primary transition-all" href="#">FAQ</a>
-<a class="text-on-surface-variant hover:text-primary transition-all" href="#">Cookie Policy</a>
-</div>
-<div class="text-on-surface-variant font-medium text-center md:text-right">
+            <div class="flex flex-wrap justify-center gap-6 font-medium">
+                <a class="text-on-surface-variant hover:text-primary transition-all" href="#">Privacy Policy</a>
+                <a class="text-on-surface-variant hover:text-primary transition-all" href="#">Terms of Service</a>
+                <a class="text-on-surface-variant hover:text-primary transition-all" href="#">FAQ</a>
+                <a class="text-on-surface-variant hover:text-primary transition-all" href="#">Cookie Policy</a>
+            </div>
+            <div class="text-on-surface-variant font-medium text-center md:text-right">
                 © 2026 CareerShastra Career Training Institute. All rights reserved.
             </div>
-</div>
-</footer>
-</body></html>
+        </div>
+    </footer>
+</body>
+
+</html>
